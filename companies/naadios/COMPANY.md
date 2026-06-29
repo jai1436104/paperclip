@@ -25,6 +25,9 @@ includes:
   - "agents/future-platform-strategist/AGENTS.md"
   - "agents/care-network-referral-strategist/AGENTS.md"
   - "agents/patient-intelligence-strategist/AGENTS.md"
+  - "projects/agm-materials/PROJECT.md"
+  - "projects/clinic-sales-materials/PROJECT.md"
+  - "projects/internal-analysis/PROJECT.md"
   - "skills/paperclip/SKILL.md"
   - "skills/paperclip-create-agent/SKILL.md"
 ---
