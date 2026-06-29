@@ -1,0 +1,179 @@
+schema: "paperclip/v1"
+company:
+  requireBoardApprovalForNewAgents: true
+agents:
+  ceo-naadios:
+    role: "ceo"
+    icon: "crown"
+    capabilities: "Owns NaadiOS company direction, approval gates, priorities, and cross-functional tradeoffs."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 604800
+    permissions:
+      canCreateAgents: true
+  survival-controller:
+    role: "cfo"
+    icon: "gem"
+    capabilities: "Maintains the default alive baseline, unit economics, and scaling discipline."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 604800
+  operator-chief:
+    role: "pm"
+    icon: "cog"
+    capabilities: "Owns clinic onboarding operations, operator throughput, and approval-first execution."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 86400
+  operator-console-steward:
+    role: "pm"
+    icon: "radar"
+    capabilities: "Maintains the operator console as the bridge for intake, onboarding, maintenance, and auditing."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 86400
+  product-engineering-lead:
+    role: "cto"
+    icon: "code"
+    capabilities: "Owns repo execution, product completion, architecture pressure, and engineering prioritization."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 259200
+  test-verification-lead:
+    role: "qa"
+    icon: "bug"
+    capabilities: "Owns verification, release readiness, regression visibility, and demo safety."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 86400
+  infrastructure-capacity-planner:
+    role: "devops"
+    icon: "database"
+    capabilities: "Tracks vendor capacity, free-tier pressure, upgrade timing, and architecture scaling constraints."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 604800
+  security-compliance-lead:
+    role: "security"
+    icon: "shield"
+    capabilities: "Owns security posture, compliance readiness, and sensitive-data boundaries."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 604800
+  gtm-lead:
+    role: "cmo"
+    icon: "globe"
+    capabilities: "Owns market narrative, AGM framing, and demand-generation positioning."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 604800
+  sales-partnerships-lead:
+    role: "general"
+    icon: "target"
+    capabilities: "Owns clinic-facing pitch quality, objections, partnership motion, and pipeline narrative."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 604800
+  strategy-finance-analyst:
+    role: "cfo"
+    icon: "brain"
+    capabilities: "Builds consulting-style scenario models, pricing architecture, and AGM financial material."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 604800
+  wiki-maintainer:
+    role: "researcher"
+    icon: "search"
+    capabilities: "Maintains the company wiki as the durable source of truth with sanitized summaries and approved redacted incident memory."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 604800
+  research-synthesizer:
+    role: "researcher"
+    icon: "microscope"
+    capabilities: "Synthesizes repo, GTM, audit, and meeting context into briefs for other departments."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+        intervalSec: 604800
+  future-platform-strategist:
+    role: "general"
+    icon: "rocket"
+    capabilities: "Owns longer-horizon platform thinking without hijacking near-term operating priorities."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+  care-network-referral-strategist:
+    role: "general"
+    icon: "radar"
+    capabilities: "Explores referral-network and rural-to-urban care-coordination expansion models."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
+  patient-intelligence-strategist:
+    role: "researcher"
+    icon: "heart"
+    capabilities: "Explores patient-side report intelligence, native-language explanation, and longitudinal progress tooling."
+    adapter:
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        enabled: false
+        wakeOnDemand: true
